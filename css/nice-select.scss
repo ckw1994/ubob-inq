@@ -17,8 +17,7 @@ $arrow_color: #EB4236 !default;
 // Style the dropdown
 .nice-select {
   z-index: 999;
-  box-shadow:0px 2px 4px rgba(59, 74, 25, 0.1) ;
-
+  // box-shadow:0px 2px 4px rgba(59, 74, 25, 0.1) ;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #fff;
   border-radius: $input_border_radius;

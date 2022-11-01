@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @media all and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* landscape 모드일 때 적용할 CSS */
   /* 모바일 패치 (아이패드 글자확대방지) */
   html {
     -webkit-text-size-adjust: none;
@@ -24,7 +25,7 @@
     border-radius: 30px;
     box-shadow: 0 12px 44px 0 rgba(59, 74, 125, 0.12);
     background-color: #fff;
-    width: 90%;
+    width: 70%;
     height: auto;
     text-align: center;
   }
@@ -60,7 +61,6 @@
     border-radius: 5px;
     border-style: none;
     border: 1px solid #e8e8e8;
-    filter: drop-shadow(0px 2px 4px rgba(59, 74, 25, 0.1));
     padding-left: 20px;
     font-size: 10px;
   }
@@ -78,7 +78,6 @@
     border-radius: 5px;
     border-style: none;
     border: 1px solid #e8e8e8;
-    box-shadow: 0px 2px 4px rgba(59, 74, 25, 0.1);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
@@ -95,7 +94,7 @@
     margin-bottom: 10px;
   }
   #container .inquiry .info-agree-box .agree-check-box .chk-s {
-    font-size: 13px;
+    font-size: 15px;
   }
   #container .inquiry .info-agree-box .info-text ul {
     margin-bottom: 50px;
@@ -153,7 +152,7 @@
     border-radius: 30px;
     box-shadow: 0 12px 44px 0 rgba(59, 74, 125, 0.12);
     background-color: #fff;
-    width: 90%;
+    width: 70%;
     height: auto;
     text-align: center;
   }
@@ -189,7 +188,6 @@
     border-radius: 5px;
     border-style: none;
     border: 1px solid #e8e8e8;
-    filter: drop-shadow(0px 2px 4px rgba(59, 74, 25, 0.1));
     padding-left: 20px;
     font-size: 10px;
   }
@@ -207,7 +205,6 @@
     border-radius: 5px;
     border-style: none;
     border: 1px solid #e8e8e8;
-    box-shadow: 0px 2px 4px rgba(59, 74, 25, 0.1);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;

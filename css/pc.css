@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media all and (min-width: 1025px) {
+@media all and (min-width: 1024px) {
   /* 모바일 패치 (아이패드 글자확대방지) */
   html {
     -webkit-text-size-adjust: none;
@@ -60,7 +60,6 @@
     border-radius: 5px;
     border-style: none;
     border: 1px solid #e8e8e8;
-    box-shadow: 0px 2px 4px rgba(59, 74, 25, 0.1);
     padding-left: 20px;
   }
   #container .inquiry .box-5 .companyScale {
@@ -77,7 +76,6 @@
     border-radius: 5px;
     border-style: none;
     border: 1px solid #e8e8e8;
-    box-shadow: 0px 2px 4px rgba(59, 74, 25, 0.1);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
