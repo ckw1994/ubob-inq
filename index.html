@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- pc.css -->
+    <link rel="stylesheet" href="./css/pc.css">
+    <!-- tablet.css -->
+    <link rel="stylesheet" href="./css/tablet.css">
+    <!-- mobile.css -->
+    <link rel="stylesheet" href="./css/mobile.css">
+    <!-- niceSelect.css -->
+    <link rel="stylesheet" href="./css/nice-select.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <!-- main.js -->
+    <script src="./js/main.js"></script>
+    <!-- jQuery-CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- niceSelect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="./js/niceSelect.js"></script>
+
+    <title>도입문의</title>
+</head>
+
+<body>
+
+    <!-- 템플릿 -->
+
+
+    <section id="container">
+
+        <div class="img-contain">
+            <!-- full-img -->
+
+            <!-- <img src="https://storage.googleapis.com/tally-block-assets/393ff53e-83bb-403c-9d87-4a77777120fb/image-slif2023_yubab_seumateureoning_seobiseu-doibmunyi-peiji_221005.png" alt="banner_img.svg"> -->
+
+            <!-- shot-img -->
+            <img src="./images/banner_img_2x.png" alt="banner_img">
+        </div>
+
+        <div class="inquiry">
+
+            <form method="post" action="#">
+                <div class="contents-box">
+
+                    <div class="box-1">
+                        <div class="inq-box">
+                            <h3 class="inq-p">회사명을 알려주세요 * (필수)</h3>
+                            <input type="text" id="companyName" placeholder="Ex ) 유밥" required>
+                        </div>
+                    </div>
+                    <div class="box-2">
+                        <div class="inq-box">
+                            <h3 class="inq-p">성함이 어떻게 되시나요? * (필수)</h3>
+                            <input type="text" id="userName" placeholder="Ex ) 김유밥" required>
+                        </div>
+                    </div>
+                    <div class="box-3">
+                        <div class="inq-box">
+                            <h3 class="inq-p">어떤 부서에서 근무하고 계신가요?</h3>
+                            <input type="text" id="department" placeholder="Ex ) 인재개발팀">
+                        </div>
+                    </div>
+                    <div class="box-4">
+                        <div class="inq-box">
+                            <h3 class="inq-p">연락처를 남겨주세요. * (필수)</h3>
+                            <input type="text" id="userNumber" placeholder="Ex ) 010-1234-5678" maxlength="13" required
+                                oninput="autoHyphen(this)">
+                        </div>
+                    </div>
+                    <div class="box-5">
+                        <div class="inq-box">
+                            <h3 class="inq-p">구성원의 규모는 얼마나 되시나요? * (필수)</h3>
+                            <select name="companyScale" required id="companyScale" class="companyScale">
+                                <option label="Please Select" value="">구성원의 규모를 선택해 주세요.
+                                </option>
+                                <option value="~50인 이하">~50인 이하</option>
+                                <option value="51인 ~ 150인 이하">51인 ~ 150인 이하</option>
+                                <option value="151인 이상">151인 이상</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="box-6">
+                        <div class="inq-box">
+
+                            <h3 class="inq-p">문의를 남겨주세요. * (필수)</h3>
+                            <textarea name="inquiry-text" id="inquiry-text" cols="60" rows="10"
+                                placeholder="Ex ) 연간 구독 시 콘텐츠를 무제한으로 들을 수 있나요?" required></textarea>
+
+                        </div>
+                    </div> <!-- box -->
+
+                    <div class="boundary"></div>
+
+                </div> <!-- contents-box -->
+
+                <div class="info-agree-box">
+
+                    <h3>개인정보 수집 및 이용 동의</h3>
+
+                    <div class="agree-check-box">
+                        <label for="chk-1" class="agree-check">
+                            <input type="checkbox" value="개인정보 수집 및 이용에 동의합니다. (필수)" name="chk-1" required id="chk-1"
+                                style="cursor:pointer ;">
+                            <span class="chk-s">개인정보 수집 및 이용에 동의합니다. (필수)</span>
+
+                        </label>
+                        <br>
+                        <label for="chk-2" class="agree-check">
+                            <input type="checkbox" value="유밥 관련 프로모션 및 마케팅 정보 수신에 동의합니다. (선택)" name="chk-2" id="chk-2"
+                                style="cursor:pointer ;"><span class="chk-s"> ㈜유밥 관련 프로모션 및
+                                마케팅 정보 수신에 동의합니다. (선택)</span>
+                        </label>
+                    </div> <!-- agree-check-box -->
+
+                    <div class="info-text">
+                        <ul>
+                            <li>* 개인정보 수집 및 제공 항목 : 회사명, 이름, 부서명, 휴대폰번호, 메일주소</li>
+                            <li>* 개인정보를 제공받는 자 : ㈜유밥</li>
+                            <li>* 개인정보 수집 이용 목적 : 상품 혜택 및 신청 절차 안내, 이벤트 및 광고성 정보 제공, 고객 문의 처리</li>
+                            <li>* 보유 및 이용기간 : 마케팅 수신 동의 철회 전까지</li>
+                            <li>* 해당 내용에 대한 개인정보 수집 및 이용에 대한 동의를 거부하실 수 있으며,
+                                거부 시에도 유밥 서비스를 이용하실 수 있으나, 동의를 거부한 경우 각종 소식 및 이벤트 참여에 제한이
+                                있을 수 있습니다.</li>
+                        </ul>
+                    </div><!-- info-text -->
+                    <button type="submit" value="submit" class="inq-btn">
+                        <span class="inq-btn-s"> 서비스 도입 문의하기 </span>
+                    </button>
+                </div> <!-- info-agree-box -->
+            </form>
+
+
+
+        </div> <!-- inquiry -->
+
+    </section> <!-- container -->
+
+
+
+
+
+
+</body>
+
+</html>
