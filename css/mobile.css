@@ -127,6 +127,9 @@
     margin-bottom: 0;
   }
 }
+
+/* 479px 이하 디바이스  */
+
 @media all and (max-width: 479px) {
   /* 모바일 패치 (아이패드 글자확대방지) */
   html {

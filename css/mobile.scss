@@ -1,6 +1,7 @@
 // 모바일
 
 @media all and (min-width: 480px) and (max-width: 767px) {
+    // 모바일 해상도 1
     $font_size_small: 11px;
     $font_size: 12px;
     $font_size_big: 13px;
@@ -180,7 +181,7 @@
     $font_size_small: 9px;
     $font_size: 10px;
     $font_size_big: 11px;
-// 모바일 해상도 (제일 낮은 해상도)
+// 모바일 해상도 - 2 (제일 낮은 해상도)
 
     /* 모바일 패치 (아이패드 글자확대방지) */
     html {
