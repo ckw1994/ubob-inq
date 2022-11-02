@@ -25,7 +25,6 @@
     box-shadow: 0 12px 44px 0 rgba(59, 74, 125, 0.12);
     background-color: #fff;
     width: 700px;
-    height: auto;
     text-align: center;
   }
   #container .img-contain {
@@ -33,6 +32,7 @@
   }
   #container .img-contain img {
     width: 100%;
+    height: auto;
     border-style: none;
   }
   #container .inquiry {
@@ -91,6 +91,9 @@
   #container .inquiry .info-agree-box .agree-check-box {
     margin-bottom: 10px;
   }
+  #container .inquiry .info-agree-box .agree-check-box .chk-s {
+    font-size: 15px;
+  }
   #container .inquiry .info-agree-box .info-text ul {
     margin-bottom: 50px;
     padding-left: 0;
@@ -98,7 +101,7 @@
   #container .inquiry .info-agree-box .info-text ul li {
     text-align: left;
     list-style: none;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 400;
     color: rgba(136, 136, 136, 0.5333333333);
     line-height: 15px;

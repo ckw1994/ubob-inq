@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-/* 테블릿 가로 모드 */
 @media all and (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
   /* landscape 모드일 때 적용할 CSS */
   /* 모바일 패치 (아이패드 글자확대방지) */
@@ -83,6 +81,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
+    font-size: 10px;
   }
   #container .inquiry .boundary {
     width: 100%;
@@ -128,8 +127,6 @@
     margin-bottom: 0;
   }
 }
-
-/* 테블릿 세로 모드 */
 @media (orientation: portrait) {
   /* Portrait 모드일 때 적용할 CSS */
   /* 모바일 패치 (아이패드 글자확대방지) */
@@ -212,6 +209,7 @@
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px;
+    font-size: 10px;
   }
   #container .inquiry .boundary {
     width: 100%;
